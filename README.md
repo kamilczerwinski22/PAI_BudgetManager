@@ -20,3 +20,8 @@ Also, MySQL + phpMyAdmin for database, and Docker.
 Configuration in file: `docker-compose.yml`
 
 To run paste `docker-compose up` to console.
+
+
+### Documentation (in polish)
+
+*Link: TODO*
