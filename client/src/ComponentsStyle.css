@@ -1,0 +1,349 @@
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.home {
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffddcc;
+    text-shadow: 3px 3px black;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contactMain {
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffddcc;
+    text-shadow: 3px 3px black;
+    align-items: center;
+    /*min-height: 100vh;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contactText {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px black;
+    align-items: center;
+    /*min-height: 100vh;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.calculatorMain{
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffddcc;
+    text-shadow: 3px 3px black;
+    align-items: center;
+    /*min-height: 100vh;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.budget {
+    background-color: lightgrey;
+    height: 90px;
+    min-width: 330px;
+    width: 28vw;
+    margin: 20px auto;
+    border-radius: 5px;
+    float: left;
+    /*display:table-cell;*/
+}
+
+.budget span{
+    /*display: inline-block;*/
+    /*vertical-align: middle;*/
+    font-size: 25px;
+    font-weight: bold;
+    color: #333;
+    line-height: 90px;
+    margin: 20px;
+
+}
+
+.remaining {
+    background-color: lightcyan;
+    height: 90px;
+    min-width: 330px;
+    width: 28vw;
+    margin: 20px auto;
+    border-radius: 5px;
+    float: left;
+    /*display:table-cell;*/
+}
+
+.remaining span{
+    /*display: inline-block;*/
+    /*vertical-align: middle;*/
+    font-size: 25px;
+    font-weight: bold;
+    color: #333;
+    line-height: 90px;
+    margin: 20px;
+}
+
+.spent {
+    background-color: lightcoral;
+    height: 90px;
+    min-width: 330px;
+    width: 28vw;
+    /*width: 25%;*/
+    margin: 20px auto;
+    border-radius: 5px;
+    float: left;
+    /*display:table-cell;*/
+}
+
+.spent span{
+    /*display: inline-block;*/
+    /*vertical-align: middle;*/
+    font-size: 25px;
+    font-weight: bold;
+    color: #333;
+    line-height: 90px;
+    margin: 20px;
+}
+
+.wrapper {
+    /*width:1000px;*/
+    margin: 30px;
+    padding: 30px;
+    /*padding: 10px auto;*/
+    /*margin: auto;*/
+    /*display:table;*/
+    /*border-radius: 5px;*/
+    /*clear:both;*/
+    /*width: 35vw;*/
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 1fr;
+    grid-column-gap: 35px;
+    /*margin-left: 50px auto;*/
+    /*row-gap: 20px;*/
+    /*padding-top:20px;*/
+    /*padding-left:15px;*/
+    /*padding-right:15px;*/
+}
+
+.calculatorExpenses {
+    margin: 50px auto;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffddcc;
+    text-shadow: 2px 2px black;
+    align-items: center;
+    /*min-height: 100vh;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.expenseBox {
+    background-color: lightgray;
+    /*height: 90px;*/
+    padding: 30px;
+    min-width: 530px;
+    width: 50vw;
+    /*width: 25%;*/
+    margin: 20px auto;
+    border-radius: 5px;
+    /*float: left;*/
+    /*display:table-cell;*/
+}
+
+.expenseSingleBox {
+    list-style-type: none;
+    background-color: papayawhip;
+    height: 40px;
+    padding: 25px;
+    min-width: 350px;
+    width: 45vw;
+    margin: 10px;
+    border-radius: 5px;
+    /*border-width: px;*/
+    border: #333333;
+    border-style: dashed;
+}
+
+.expenseSingleBoxText {
+    /*display: inline-block;*/
+    /*vertical-align: middle;*/
+    font-size: 13px;
+    font-weight: bold;
+    color: #333;
+    /*line-height: 50px;*/
+    /*margin: 20px;*/
+    /*align-content: ri;*/
+    float: left;
+}
+
+.expenseSingleBoxTextPrice {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    line-height: 40px;
+    padding-right: 50px;
+    float: right;
+}
+
+.expenseSingleBoxDelete {
+    padding-right: 50px;
+    /*margin: auto;*/
+    /*float: right;*/
+    font-size: 25px;
+    font-weight: bolder;
+    /*border: red;*/
+    /*line-height: 50px;*/
+    /*vertical-align: auto;*/
+}
+
+.wrapperItem {
+    /*width:1000px;*/
+    /*margin: 30px;*/
+    /*padding: 30px;*/
+    /*padding: 10px auto;*/
+    /*margin: auto;*/
+    /*display:table;*/
+    /*border-radius: 5px;*/
+    /*clear:both;*/
+    /*width: 35vw;*/
+    display:grid;
+    grid-template-columns: 67% 23% 10%;
+    grid-gap: 1em 1em;
+    grid-auto-flow: row dense;
+    /*margin-left: 50px auto;*/
+    /*row-gap: 20px;*/
+    /*padding-top:20px;*/
+    /*padding-left:15px;*/
+    /*padding-right:15px;*/
+}
+
+.formBox {
+    background-color: lightgray;
+    /*height: 90px;*/
+    padding: 10px;
+    min-width: 540px;
+    width: 30vw;
+    /*width: 25%;*/
+    margin: 20px auto;
+    border-radius: 5px;
+    /*float: left;*/
+    /*display:table-cell;*/
+
+}
+
+.formText {
+    /*display: inline-block;*/
+    /*vertical-align: middle;*/
+    font-size: 35px;
+    font-weight: bold;
+    color: #333;
+    margin: 30px;
+    text-align: center;
+    /*line-height: 50px;*/
+    /*margin: 20px;*/
+    /*align-content: ri;*/
+    /*float: left;*/
+}
+
+.formInputBox {
+    list-style-type: none;
+    background-color: papayawhip;
+    height: 25px;
+    padding: 30px;
+    min-width: 400px;
+    width: 15vw;
+    margin: 10px;
+    border-radius: 5px;
+    border:3px solid #333333;
+}
+
+.formInputText {
+
+}
+
+.formButton {
+    background-color:#333333;
+    border-radius:5px;
+    border:3px solid #ffddcc;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffddcc;
+    /*font-family:Arial;*/
+    font-size:28px;
+    font-weight:bold;
+    padding:20px 48px;
+    text-decoration:none;
+    /*text-shadow:0px 1px 0px #2f6627;*/
+}
+
+.formButton:hover {
+    background-color: #526c67;
+}
+.formButton:active {
+    position:relative;
+    top:1px;
+}
+
+.openListButton {
+    background-color:#333333;
+    border-radius:5px;
+    border:3px solid #ffddcc;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffddcc;
+    /*font-family:Arial;*/
+    font-size:35px;
+    font-weight:bold;
+    padding:25px 120px;
+    text-decoration:none;
+    /*text-shadow:0px 1px 0px #2f6627;*/
+}
+
+.openListButton:hover {
+    background-color: gray;
+}
+.openListButton:active {
+    position:relative;
+    top:1px;
+}
+
+.openListBox {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
