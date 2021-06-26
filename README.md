@@ -24,4 +24,4 @@ To run paste `docker-compose up` to console.
 
 ### Documentation (in polish)
 
-*Link: TODO*
+*Link: Sent using e-mail*
